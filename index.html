@@ -1,0 +1,593 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#116B67">
+  <meta name="description" content="Belleville Dental - dental education, oral health resources, research and dental products.">
+  <title>Belleville Dental | Your Smile, Our Priority</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top information bar -->
+  <div class="topbar">
+    <div class="container d-flex justify-content-between flex-wrap gap-2">
+      <span><i class="bi bi-heart-pulse me-2"></i>Better oral health starts here.</span>
+      <span><i class="bi bi-people me-1"></i> Visitors: <b id="visitorCount">1</b></span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg sticky-top main-nav">
+    <div class="container">
+      <a class="navbar-brand brand" href="#home">
+        <span class="brand-icon"><i class="bi bi-plus-circle-fill"></i></span>
+        <span>Belleville<span class="brand-light">Dental</span>
+          <small>EDUCATION & ORAL CARE</small>
+        </span>
+      </a>
+
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#mainMenu"
+        aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#professional">Professional Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#patients">Patient Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-teal btn-sm px-3" href="#contact">Contact Us <i class="bi bi-arrow-up-right"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 reveal">
+            <span class="eyebrow"><i class="bi bi-stars me-2"></i>YOUR GUIDE TO A HEALTHIER SMILE</span>
+            <h1>Healthy smiles begin with <span>better knowledge.</span></h1>
+            <p class="hero-text">
+              Explore trusted oral health information, learn preventive
+              dental care, discover educational resources and make informed
+              decisions about your smile.
+            </p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a href="#patients" class="btn btn-teal btn-lg">Explore Patient Education <i class="bi bi-arrow-right ms-2"></i></a>
+              <a href="#professional" class="btn btn-outline-teal btn-lg">For Professionals</a>
+            </div>
+            <div class="hero-points mt-4">
+              <span><i class="bi bi-check-circle-fill"></i> Oral health guides</span>
+              <span><i class="bi bi-check-circle-fill"></i> Research resources</span>
+            </div>
+          </div>
+          <div class="col-lg-6 reveal">
+            <div class="hero-visual">
+              <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1100&q=85"
+                alt="Dental professional providing oral care" class="hero-image">
+              <div class="floating-card floating-one">
+                <span class="float-icon"><i class="bi bi-shield-check"></i></span>
+                <span><b>Preventive Care</b><small>Protect your smile</small></span>
+              </div>
+              <div class="floating-card floating-two">
+                <i class="bi bi-heart-fill"></i> Knowledge for healthier smiles
+              </div>
+              <div class="hero-decoration"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick links -->
+    <section class="quick-section">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-6 col-lg-3">
+            <a href="#patients" class="quick-card">
+              <i class="bi bi-emoji-smile"></i>
+              <span><b>Patient Guides</b><small>Understand oral health</small></span>
+              <i class="bi bi-arrow-up-right ms-auto"></i>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a href="#professional" class="quick-card">
+              <i class="bi bi-mortarboard"></i>
+              <span><b>Learn & Grow</b><small>Educational resources</small></span>
+              <i class="bi bi-arrow-up-right ms-auto"></i>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a href="#research" class="quick-card">
+              <i class="bi bi-journal-medical"></i>
+              <span><b>Dental Research</b><small>Explore new knowledge</small></span>
+              <i class="bi bi-arrow-up-right ms-auto"></i>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3">
+            <a href="#products" class="quick-card">
+              <i class="bi bi-bag-heart"></i>
+              <span><b>Oral Care Products</b><small>Compare essentials</small></span>
+              <i class="bi bi-arrow-up-right ms-auto"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section-pad">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5 reveal">
+            <div class="about-visual">
+              <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=900&q=85"
+                alt="Dental tools and oral care" loading="lazy">
+              <div class="about-badge"><b>Learn.</b><b>Prevent.</b><b>Smile.</b></div>
+            </div>
+          </div>
+          <div class="col-lg-7 reveal">
+            <span class="eyebrow">ABOUT BELLEVILLE DENTAL</span>
+            <h2 class="section-title">Making dental knowledge accessible to everyone.</h2>
+            <p class="section-text">
+              Oral health plays an important role in overall wellbeing.
+              Belleville Dental is an educational portal designed to bring
+              patients, students and dental professionals closer to reliable
+              learning resources.
+            </p>
+            <p class="section-text">
+              From daily brushing techniques to professional learning
+              resources, our goal is to make dental information easier to
+              understand and use in everyday life.
+            </p>
+            <div class="row g-3 mt-3">
+              <div class="col-sm-6">
+                <div class="mini-feature"><i class="bi bi-check2-circle"></i><span><b>Preventive Care</b><small>Build healthy habits</small></span></div>
+              </div>
+              <div class="col-sm-6">
+                <div class="mini-feature"><i class="bi bi-book-half"></i><span><b>Better Education</b><small>Learn at your pace</small></span></div>
+              </div>
+            </div>
+            <a href="#patients" class="text-link mt-4 d-inline-block">Discover our resources <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Patient education -->
+    <section id="patients" class="section-pad mint-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">PATIENT EDUCATION</span>
+          <h2 class="section-title">Take charge of your oral health.</h2>
+          <p class="section-text">Understand common dental concerns and learn the basics of everyday oral care.</p>
+        </div>
+        <div class="row g-4 mt-2">
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="content-card h-100">
+              <div class="card-icon"><i class="bi bi-brightness-high"></i></div>
+              <span class="card-tag">DAILY CARE</span>
+              <h3>Brushing & Flossing</h3>
+              <p>Learn how to clean your teeth, care for your gums and establish a consistent oral hygiene routine.</p>
+              <button class="text-link learn-more" data-title="Brushing & Flossing" data-content="Brush twice daily for two minutes with fluoride toothpaste. Clean between your teeth daily with floss or an appropriate interdental cleaner. Use gentle movements along the gumline and replace your toothbrush when worn. Ask your dental professional which technique suits your needs.">Read Guide <i class="bi bi-arrow-right"></i></button>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="content-card h-100">
+              <div class="card-icon"><i class="bi bi-shield-plus"></i></div>
+              <span class="card-tag">PREVENTION</span>
+              <h3>Tooth Decay & Cavities</h3>
+              <p>Understand the causes of cavities, warning signs and everyday steps that help protect your teeth.</p>
+              <button class="text-link learn-more" data-title="Tooth Decay & Cavities" data-content="Tooth decay develops when acids produced by mouth bacteria damage tooth enamel. Limit frequent sugary snacks and drinks, use fluoride toothpaste and attend regular dental check-ups. Toothache, visible holes or sensitivity should be assessed by a dentist. Early treatment can help prevent further damage.">Read Guide <i class="bi bi-arrow-right"></i></button>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="content-card h-100">
+              <div class="card-icon"><i class="bi bi-heart-pulse"></i></div>
+              <span class="card-tag">GUM HEALTH</span>
+              <h3>Healthy Gums</h3>
+              <p>Learn about gum inflammation, bleeding gums and the importance of professional dental care.</p>
+              <button class="text-link learn-more" data-title="Healthy Gums" data-content="Healthy gums are generally firm and do not bleed during gentle brushing. Plaque build-up can cause inflammation and bleeding. Brush gently twice daily, clean between teeth and arrange a dental assessment if bleeding persists, gums recede or teeth become loose.">Read Guide <i class="bi bi-arrow-right"></i></button>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="content-card h-100">
+              <div class="card-icon"><i class="bi bi-emoji-smile"></i></div>
+              <span class="card-tag">CHILDREN</span>
+              <h3>Children's Dental Care</h3>
+              <p>Build healthy habits early and understand the role of parents in children's oral hygiene.</p>
+              <button class="text-link learn-more" data-title="Children's Dental Care" data-content="Begin cleaning a baby's mouth early and brush as soon as the first tooth appears. Use an age-appropriate soft toothbrush and a suitable amount of fluoride toothpaste. Supervise brushing until children can clean effectively. Ask a dentist about preventive visits and individual fluoride needs.">Read Guide <i class="bi bi-arrow-right"></i></button>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="content-card h-100">
+              <div class="card-icon"><i class="bi bi-cup-hot"></i></div>
+              <span class="card-tag">NUTRITION</span>
+              <h3>Food & Oral Health</h3>
+              <p>Discover how daily food and drink choices can affect teeth and contribute to oral health.</p>
+              <button class="text-link learn-more" data-title="Food & Oral Health" data-content="Choose water regularly, eat a balanced diet and limit how often you consume sugary foods and drinks. Frequent sugar exposure increases the risk of tooth decay. After acidic drinks, rinse with water and wait before brushing. Your dental professional can provide advice tailored to your needs.">Read Guide <i class="bi bi-arrow-right"></i></button>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="content-card h-100">
+              <div class="card-icon"><i class="bi bi-calendar2-check"></i></div>
+              <span class="card-tag">CHECK-UPS</span>
+              <h3>Dental Visits</h3>
+              <p>Understand preventive examinations, professional cleaning and when to seek dental advice.</p>
+              <button class="text-link learn-more" data-title="Dental Visits" data-content="Routine dental visits can help identify oral health problems before they become more serious. The recommended interval depends on your individual risk and dental history. Severe facial swelling, difficulty breathing or swallowing requires emergency medical attention. Do not delay care for significant dental pain.">Read Guide <i class="bi bi-arrow-right"></i></button>
+            </article>
+          </div>
+        </div>
+        <p class="disclaimer mt-4"><i class="bi bi-info-circle me-2"></i>Educational information only. It does not replace an examination or personalised advice from a qualified dental professional.</p>
+      </div>
+    </section>
+
+    <!-- Professional education -->
+    <section id="professional" class="section-pad">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">PROFESSIONAL EDUCATION</span>
+          <h2 class="section-title">Learn, practice and grow.</h2>
+          <p class="section-text">Explore learning pathways and educational materials for students and dental practitioners.</p>
+        </div>
+        <div class="row g-4 mt-2">
+          <div class="col-md-6 col-lg-3 reveal">
+            <article class="professional-card">
+              <i class="bi bi-mortarboard"></i>
+              <h3>Student Resources</h3>
+              <p>Study notes, learning topics and foundational dental knowledge.</p>
+              <a href="#resource-library" class="text-link">Explore <i class="bi bi-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3 reveal">
+            <article class="professional-card">
+              <i class="bi bi-journal-bookmark"></i>
+              <h3>Courses & Guides</h3>
+              <p>Organised learning topics and reference materials.</p>
+              <a href="#resource-library" class="text-link">Explore <i class="bi bi-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3 reveal">
+            <article class="professional-card">
+              <i class="bi bi-people"></i>
+              <h3>Faculty Resources</h3>
+              <p>Teaching aids, presentations and educational planning.</p>
+              <a href="#resource-library" class="text-link">Explore <i class="bi bi-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-3 reveal">
+            <article class="professional-card">
+              <i class="bi bi-clipboard2-pulse"></i>
+              <h3>Case Studies</h3>
+              <p>Use case-based learning to explore clinical concepts.</p>
+              <a href="#resource-library" class="text-link">Explore <i class="bi bi-arrow-right"></i></a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research" class="section-pad research-section">
+      <div class="container">
+        <div class="row align-items-center g-4 mb-4">
+          <div class="col-lg-8 reveal">
+            <span class="eyebrow">RESEARCH & MEDIA LIBRARY</span>
+            <h2 class="section-title">Knowledge backed by research.</h2>
+            <p class="section-text">Explore oral health research and trusted educational resources.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=oral+health" target="_blank" rel="noopener noreferrer" class="btn btn-outline-teal">Explore PubMed <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="research-card">
+              <div class="research-icon"><i class="bi bi-journal-medical"></i></div>
+              <span class="card-tag">RESEARCH DATABASE</span>
+              <h3>Oral Health Studies</h3>
+              <p>Find scientific publications on prevention, dental diseases and oral health.</p>
+              <a href="https://pubmed.ncbi.nlm.nih.gov/?term=oral+health" target="_blank" rel="noopener noreferrer" class="text-link">Browse studies <i class="bi bi-arrow-up-right"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="research-card">
+              <div class="research-icon"><i class="bi bi-globe2"></i></div>
+              <span class="card-tag">PUBLIC HEALTH</span>
+              <h3>WHO Oral Health</h3>
+              <p>Read global oral health information and public health guidance.</p>
+              <a href="https://www.who.int/health-topics/oral-health" target="_blank" rel="noopener noreferrer" class="text-link">Read resources <i class="bi bi-arrow-up-right"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="research-card">
+              <div class="research-icon"><i class="bi bi-play-circle"></i></div>
+              <span class="card-tag">VIDEO LEARNING</span>
+              <h3>Dental Education Videos</h3>
+              <p>Discover educational videos on oral hygiene and dental health.</p>
+              <a href="https://www.youtube.com/results?search_query=dental+education+oral+health" target="_blank" rel="noopener noreferrer" class="text-link">Watch videos <i class="bi bi-arrow-up-right"></i></a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resource library -->
+    <section id="resource-library" class="section-pad">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">LEARNING LIBRARY</span>
+          <h2 class="section-title">Find your next learning topic.</h2>
+        </div>
+        <div class="row g-3 mt-3">
+          <div class="col-md-6 col-lg-4"><div class="resource-item"><i class="bi bi-file-earmark-text"></i><span><b>Oral Hygiene Basics</b><small>Patient education guide</small></span><a href="#patients" aria-label="Open patient guides"><i class="bi bi-arrow-up-right"></i></a></div></div>
+          <div class="col-md-6 col-lg-4"><div class="resource-item"><i class="bi bi-book"></i><span><b>Dental Learning Topics</b><small>Student resource section</small></span><a href="#professional" aria-label="Open professional education"><i class="bi bi-arrow-up-right"></i></a></div></div>
+          <div class="col-md-6 col-lg-4"><div class="resource-item"><i class="bi bi-search"></i><span><b>Scientific Publications</b><small>External research database</small></span><a href="https://pubmed.ncbi.nlm.nih.gov/?term=dentistry" target="_blank" rel="noopener noreferrer" aria-label="Browse scientific publications"><i class="bi bi-arrow-up-right"></i></a></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="section-pad mint-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">DENTAL CARE PRODUCTS</span>
+          <h2 class="section-title">Everyday essentials for your smile.</h2>
+          <p class="section-text">Explore product categories and submit your rating for each item.</p>
+        </div>
+
+        <div class="product-toolbar mt-4">
+          <div class="filter-group" id="productFilters">
+            <button class="filter-btn active" data-filter="all">All Products</button>
+            <button class="filter-btn" data-filter="toothpaste">Toothpaste</button>
+            <button class="filter-btn" data-filter="brush">Toothbrushes</button>
+            <button class="filter-btn" data-filter="kids">Kids</button>
+            <button class="filter-btn" data-filter="electric">Electric Care</button>
+          </div>
+          <label class="search-box">
+            <i class="bi bi-search"></i>
+            <input type="search" id="productSearch" placeholder="Search products..." aria-label="Search products">
+          </label>
+        </div>
+
+        <div class="row g-4 mt-2" id="productGrid">
+          <div class="col-sm-6 col-lg-3 product-item reveal" data-category="toothpaste" data-name="fluoride toothpaste">
+            <article class="product-card h-100">
+              <div class="product-image product-visual"><i class="bi bi-droplet-half"></i><span>DAILY CARE</span></div>
+              <div class="product-body">
+                <span class="card-tag">TOOTHPASTE</span><h3>Fluoride Toothpaste</h3>
+                <p>For everyday cavity prevention.</p>
+                <div class="rating-display" data-rating-for="fluoride-toothpaste"><span class="stars">☆☆☆☆☆</span> <small>0/5</small></div>
+                <div class="rating-input" data-product="fluoride-toothpaste" aria-label="Rate fluoride toothpaste">
+                  <button type="button" data-rating="1" aria-label="1 star">★</button><button type="button" data-rating="2" aria-label="2 stars">★</button><button type="button" data-rating="3" aria-label="3 stars">★</button><button type="button" data-rating="4" aria-label="4 stars">★</button><button type="button" data-rating="5" aria-label="5 stars">★</button>
+                </div>
+                <small class="rating-help">Click a star to rate</small>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-3 product-item reveal" data-category="brush" data-name="soft toothbrush">
+            <article class="product-card h-100">
+              <div class="product-image product-visual visual-brush"><i class="bi bi-brush"></i><span>GENTLE CLEAN</span></div>
+              <div class="product-body">
+                <span class="card-tag">TOOTHBRUSH</span><h3>Soft Toothbrush</h3>
+                <p>Gentle everyday brushing.</p>
+                <div class="rating-display" data-rating-for="soft-toothbrush"><span class="stars">☆☆☆☆☆</span> <small>0/5</small></div>
+                <div class="rating-input" data-product="soft-toothbrush" aria-label="Rate soft toothbrush">
+                  <button type="button" data-rating="1" aria-label="1 star">★</button><button type="button" data-rating="2" aria-label="2 stars">★</button><button type="button" data-rating="3" aria-label="3 stars">★</button><button type="button" data-rating="4" aria-label="4 stars">★</button><button type="button" data-rating="5" aria-label="5 stars">★</button>
+                </div>
+                <small class="rating-help">Click a star to rate</small>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-3 product-item reveal" data-category="kids" data-name="kids toothbrush">
+            <article class="product-card h-100">
+              <div class="product-image product-visual visual-kids"><i class="bi bi-emoji-smile"></i><span>FOR LITTLE SMILES</span></div>
+              <div class="product-body">
+                <span class="card-tag">KIDS</span><h3>Kids' Toothbrush</h3>
+                <p>Designed for supervised brushing.</p>
+                <div class="rating-display" data-rating-for="kids-toothbrush"><span class="stars">☆☆☆☆☆</span> <small>0/5</small></div>
+                <div class="rating-input" data-product="kids-toothbrush" aria-label="Rate kids toothbrush">
+                  <button type="button" data-rating="1" aria-label="1 star">★</button><button type="button" data-rating="2" aria-label="2 stars">★</button><button type="button" data-rating="3" aria-label="3 stars">★</button><button type="button" data-rating="4" aria-label="4 stars">★</button><button type="button" data-rating="5" aria-label="5 stars">★</button>
+                </div>
+                <small class="rating-help">Click a star to rate</small>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-3 product-item reveal" data-category="electric" data-name="electric toothbrush">
+            <article class="product-card h-100">
+              <div class="product-image product-visual visual-electric"><i class="bi bi-lightning-charge"></i><span>SMARTER ROUTINE</span></div>
+              <div class="product-body">
+                <span class="card-tag">ELECTRIC CARE</span><h3>Electric Toothbrush</h3>
+                <p>A powered option for daily cleaning.</p>
+                <div class="rating-display" data-rating-for="electric-toothbrush"><span class="stars">☆☆☆☆☆</span> <small>0/5</small></div>
+                <div class="rating-input" data-product="electric-toothbrush" aria-label="Rate electric toothbrush">
+                  <button type="button" data-rating="1" aria-label="1 star">★</button><button type="button" data-rating="2" aria-label="2 stars">★</button><button type="button" data-rating="3" aria-label="3 stars">★</button><button type="button" data-rating="4" aria-label="4 stars">★</button><button type="button" data-rating="5" aria-label="5 stars">★</button>
+                </div>
+                <small class="rating-help">Click a star to rate</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <p id="noProducts" class="text-center mt-4" hidden>No products match your search.</p>
+        <p class="disclaimer mt-4"><i class="bi bi-info-circle me-2"></i>These are example product categories, not brand endorsements. Ratings in this demo are stored in your current browser.</p>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section-pad">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">OUR GALLERY</span>
+          <h2 class="section-title">A closer look at dental care.</h2>
+          <p class="section-text">Explore dental care and oral health imagery.</p>
+        </div>
+        <div class="row g-3 mt-3">
+          <div class="col-md-6 col-lg-4 reveal"><button class="gallery-item" data-image="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1200&q=85" data-caption="Dental professionals at work"><img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=700&q=80" alt="Dental professionals" loading="lazy"><span><b>Dental Professionals</b><i class="bi bi-arrows-fullscreen"></i></span></button></div>
+          <div class="col-md-6 col-lg-4 reveal"><button class="gallery-item" data-image="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1200&q=85" data-caption="Dental instruments and care"><img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=700&q=80" alt="Dental instruments" loading="lazy"><span><b>Dental Care</b><i class="bi bi-arrows-fullscreen"></i></span></button></div>
+          <div class="col-md-6 col-lg-4 reveal"><button class="gallery-item" data-image="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1200&q=85" data-caption="Oral care and dental treatment"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=700&q=80" alt="Oral care" loading="lazy"><span><b>Healthy Smiles</b><i class="bi bi-arrows-fullscreen"></i></span></button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section-pad mint-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">COMMON QUESTIONS</span>
+          <h2 class="section-title">A few things worth knowing.</h2>
+        </div>
+        <div class="accordion faq-accordion mt-4" id="faqAccordion">
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne">How often should I brush my teeth?</button></h3>
+            <div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body">Brush twice a day for two minutes with fluoride toothpaste. Follow your dental professional's advice for your individual needs.</div></div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo">Why are regular dental check-ups important?</button></h3>
+            <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Check-ups can help identify dental problems early. The frequency depends on your oral health and risk factors.</div></div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree">Does this website provide medical diagnosis?</button></h3>
+            <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">No. This website provides general educational information. A qualified dental professional must assess your symptoms and recommend treatment.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-pad">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5 reveal">
+            <span class="eyebrow">CONTACT BELLEVILLE DENTAL</span>
+            <h2 class="section-title">Have a question? Let's connect.</h2>
+            <p class="section-text">Send an educational enquiry or ask about the resources available on our portal.</p>
+            <div class="contact-item"><span class="contact-icon"><i class="bi bi-envelope"></i></span><span><small>Email</small><b>info@bellevilledental.example</b></span></div>
+            <div class="contact-item"><span class="contact-icon"><i class="bi bi-telephone"></i></span><span><small>Phone</small><b>+92 300 0000000</b></span></div>
+            <div class="contact-item"><span class="contact-icon"><i class="bi bi-geo-alt"></i></span><span><small>Address</small><b>Dental Education Centre, Pakistan</b></span></div>
+            <p class="disclaimer mt-3">The contact details shown are sample placeholders. Replace them with your organisation's actual details.</p>
+          </div>
+          <div class="col-lg-7 reveal">
+            <form id="contactForm" class="contact-form">
+              <h3>Send us a message</h3>
+              <p class="section-text">All fields marked with * are required.</p>
+              <div class="row g-3">
+                <div class="col-md-6"><label class="form-label" for="name">Full name *</label><input class="form-control" id="name" name="name" required maxlength="100" placeholder="Your name"></div>
+                <div class="col-md-6"><label class="form-label" for="email">Email address *</label><input class="form-control" id="email" name="email" type="email" required maxlength="150" placeholder="you@example.com"></div>
+                <div class="col-12"><label class="form-label" for="subject">Subject *</label><select class="form-select" id="subject" name="subject" required><option value="">Choose an enquiry type</option><option>Patient Education</option><option>Professional Education</option><option>Research</option><option>Products</option><option>General Query</option></select></div>
+                <div class="col-12"><label class="form-label" for="message">Your message *</label><textarea class="form-control" id="message" name="message" rows="5" required maxlength="2000" placeholder="How can we help?"></textarea></div>
+                <div class="col-12"><button class="btn btn-teal btn-lg w-100" type="submit">Submit Enquiry <i class="bi bi-send ms-2"></i></button></div>
+              </div>
+              <div id="formMessage" class="mt-3" role="status" aria-live="polite"></div>
+              <small class="form-note">Demo form: messages are not sent to a server. Connect a backend to receive enquiries.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sitemap -->
+    <section id="sitemap" class="sitemap-strip">
+      <div class="container d-flex flex-wrap align-items-center justify-content-between gap-3">
+        <div><b>Explore Belleville Dental</b><p class="mb-0">Everything you need to navigate our educational portal.</p></div>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="#about">About Us</a><a href="#patients">Patient Education</a><a href="#professional">Professional Education</a><a href="#research">Research</a><a href="#products">Products</a><a href="#faq">FAQs</a><a href="#contact">Queries</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4 py-5">
+        <div class="col-lg-5">
+          <a class="navbar-brand brand footer-brand" href="#home">
+            <span class="brand-icon"><i class="bi bi-plus-circle-fill"></i></span>
+            <span>Belleville<span class="brand-light">Dental</span><small>EDUCATION & ORAL CARE</small></span>
+          </a>
+          <p class="footer-description mt-3">Supporting better oral health through accessible education, trusted resources and preventive care awareness.</p>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h3>Explore</h3>
+          <a href="#about">About Us</a><a href="#patients">Patient Education</a><a href="#professional">Professionals</a><a href="#research">Research</a>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h3>Resources</h3>
+          <a href="#products">Products</a><a href="#gallery">Gallery</a><a href="#resource-library">Learning Library</a><a href="#sitemap">Sitemap</a>
+        </div>
+        <div class="col-lg-3">
+          <h3>Get in touch</h3>
+          <a href="#contact"><i class="bi bi-envelope me-2"></i>Contact our team</a>
+          <a href="#contact"><i class="bi bi-chat-dots me-2"></i>Send an enquiry</a>
+          <a href="#faq"><i class="bi bi-question-circle me-2"></i>Frequently asked questions</a>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
+        <span>© <span id="year"></span> Belleville Dental. Educational demo project.</span>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Live information ticker -->
+  <div class="ticker" aria-label="Live date, time and location information">
+    <div class="ticker-track">
+      <span><i class="bi bi-clock"></i> <span id="liveDateTime">Loading local date and time...</span></span>
+      <span><i class="bi bi-geo-alt"></i> <span id="liveLocation">Location: permission not requested</span></span>
+      <span><i class="bi bi-heart-pulse"></i> Your smile matters — make oral care a daily habit.</span>
+      <span><i class="bi bi-clock"></i> <span id="tickerDateTime">Loading...</span></span>
+      <span><i class="bi bi-geo-alt"></i> <span id="tickerLocation">Location information unavailable</span></span>
+    </div>
+  </div>
+
+  <!-- Educational guide modal -->
+  <div class="modal fade" id="guideModal" tabindex="-1" aria-labelledby="guideTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content guide-modal">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="guideTitle">Dental Guide</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="guideBody"></div>
+        <div class="modal-footer"><button type="button" class="btn btn-teal" data-bs-dismiss="modal">Got it</button></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery modal -->
+  <div class="modal fade" id="galleryModal" tabindex="-1" aria-label="Gallery image viewer" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content gallery-modal-content">
+        <button type="button" class="btn-close gallery-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <img id="galleryModalImage"  alt="">
+        <p id="galleryCaption" class="p-3 mb-0"></p>
+      </div>
+    </div>
+  </div>
+
+  <button id="backToTop" type="button" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
